@@ -4,9 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Interactive Map</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="//db.onlinewebfonts.com/c/5b0ec5409a671e85efbb3cc0bfddda14?family=Leelawadee+UI" rel="stylesheet" type="text/css"/>
+    <script
+    src="https://kit.fontawesome.com/9cb162c1e3.js"
+    crossorigin="anonymous"
+    ></script>
+
+    <style>
+        .button-container2 {
+            display: flex;
+            justify-content: left;
+            padding-right: 4rem;
+            align-items: left;
+            height: 4rem;
+            padding-left:1rem;
+            padding-top:18rem;
+        }
+
+        #iconpage-button{
+            height: 4.5rem;
+            width: 4.5rem;
+            font-size: 3.5rem;
+            border-radius: 50%;
+            background-color: #AF9ABF;
+            border:0;
+            color:#57466D;
+        }
+
+        #iconpage-button:hover{
+            background-color: #57466D;
+            color: #AF9ABF;
+        }
+
+        .button-container {
+    display: flex;
+    justify-content: right;
+    padding-right: 4rem;
+    align-items: right;
+    height: 4rem;
+    padding-top: 12rem;
+}
+
+#main-button{
+    height: 4.5rem;
+    width: 4.5rem;
+    font-size: 3.5rem;
+    border-radius: 50%;
+    background-color: #AF9ABF;
+    border:0;
+    color:#57466D;
+}
+
+#main-button:hover{
+    background-color: #57466D;
+    color: #AF9ABF;
+}
+    </style>
 </head>
 <body>
+
+    <h1 id="main-desc1">THIRSTY?</h1><br>
+    <h1 id="main-desc2">HUNGRY?</h1><br>
+    <h1 id="main-desc3">DON'T HAVE ENOUGH TIME?</h1>
+
+    <div class="button-container2">
+        <a href="ourPurpose.html" style="margin-right: 79rem;">           
+            <button id="iconpage-button"><i class="fa-solid fa-arrow-down"></i></button>
+        </a>
+
+        <a href="icon_page.html">           
+            <button id="main-button"><i class="fa-solid fa-arrow-right"></i></button>
+        </a>
+    </div>
+     
+    <div class="button-container">
+        
+    </div>
     
 </body>
 </html>
