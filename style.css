@@ -1,0 +1,153 @@
+@import url(//db.onlinewebfonts.com/c/5b0ec5409a671e85efbb3cc0bfddda14?family=Leelawadee+UI);
+@font-face {font-family: "Leelawadee UI"; src: url("//db.onlinewebfonts.com/t/5b0ec5409a671e85efbb3cc0bfddda14.eot"); src: url("//db.onlinewebfonts.com/t/5b0ec5409a671e85efbb3cc0bfddda14.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5b0ec5409a671e85efbb3cc0bfddda14.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5b0ec5409a671e85efbb3cc0bfddda14.woff") format("woff"), url("//db.onlinewebfonts.com/t/5b0ec5409a671e85efbb3cc0bfddda14.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5b0ec5409a671e85efbb3cc0bfddda14.svg#Leelawadee UI") format("svg"); }
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+h1{
+    padding-left: 2rem;
+    font-size: 4rem;
+    font-family: "Leelawadee UI", sans-serif;
+    color:#57466D;
+}
+#main-desc1{
+    padding-top: 10rem;
+}
+
+#main-desc2{
+    padding-left: 10rem;
+}
+
+#main-desc3{
+    padding-left: 20rem;
+}
+
+.icon-container {
+    float:left;
+    padding: 5rem;
+    margin: 2rem;
+    background-color: #E5B1B1;
+    border-radius: 50%;
+}
+
+.icon-container:hover{
+    background-color: #dd8686;
+}
+
+.icon-row{
+    content: "";
+    clear: both;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+img{
+    height: 15rem;
+    width: 15rem;
+}
+
+
+
+.linkedin{
+    color:black;
+    font-family: sans-serif;
+}
+
+.purpose-container{
+    padding-left: 2rem;
+    margin-top: 4rem;
+    margin-left:10rem;
+    margin-right: 30rem;
+}
+
+.purpose-title{
+    font-size: 3.5rem;
+    color:#006736;
+    font-family: 'Space Mono', monospace;
+}
+
+.purpose-para{
+    padding-left: 4rem;
+    font-size: 1.5rem;
+    font-family: 'Space Mono', monospace;
+    padding-top:1rem;
+}
+
+.contact-container{
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.contact-container-row{
+    width:100%;
+}
+
+.linkedin{
+    display: flex;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    padding-top: 2rem;
+    width: 300px;
+    background-color: #63a9c0;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar-button {
+    display: block;
+    color: black;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+  
+  .sidebar-button:hover {
+    background-color: #75bad1;
+    color: white;
+  }
+
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(#252930 50%, #5372F0 50%);
+}
+::selection{
+  color: #fff;
+  background: #5372F0;
+}
+button{
+  border: none;
+  outline: none;
+  font-size: 50px;
+  color: #5372F0;
+  padding: 23px 44px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+} */
