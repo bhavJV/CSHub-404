@@ -14,20 +14,22 @@ a:link{
 
 h1{
     padding-left: 2rem;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: "Leelawadee UI", sans-serif;
     color:#57466D;
 }
 #main-desc1{
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 #main-desc2{
-    padding-left: 10rem;
+    padding-left: 5rem;
+
 }
 
 #main-desc3{
-    padding-left: 20rem;
+    padding-left: 10rem;
+
 }
 
 .icon-container {
@@ -129,6 +131,8 @@ img{
   }
   
   .lineUp {
+    padding-left: 15rem;
+    padding-top: 5rem;
     animation: 2s anim-lineUp ease-out infinite;
   }
   @keyframes anim-lineUp {
