@@ -1,4 +1,6 @@
 # YUessentials
+Figma - https://www.figma.com/proto/nNTacL4QQXTQ7uJFtBnWBv/Campus-website?node-id=18%3A3&scaling=contain&page-id=0%3A1&starting-point-node-id=18%3A3
+Pitch Video - https://youtu.be/b9JYVEfMddc
 
 ## Inspiration
 When we first started our journey in York, we had difficulties navigating such a huge campus, so we were inspired to create a user-friendly website for newcomers to easily get directions for their needs.
